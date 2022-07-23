@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333D14E0288C2C4B00A349E1 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D14DF288C2C4B00A349E1 /* Tests_iOS.swift */; };
+		333D14E2288C2C4B00A349E1 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D14E1288C2C4B00A349E1 /* Tests_iOSLaunchTests.swift */; };
+		333D14EC288C2C4B00A349E1 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D14EB288C2C4B00A349E1 /* Tests_macOS.swift */; };
+		333D14EE288C2C4B00A349E1 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D14ED288C2C4B00A349E1 /* Tests_macOSLaunchTests.swift */; };
+		333D14EF288C2C4B00A349E1 /* Gridot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 333D14C4288C2C4200A349E1 /* Gridot.xcdatamodeld */; };
+		333D14F0288C2C4B00A349E1 /* Gridot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 333D14C4288C2C4200A349E1 /* Gridot.xcdatamodeld */; };
+		333D14F1288C2C4B00A349E1 /* GridotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D14C6288C2C4200A349E1 /* GridotApp.swift */; };
+		333D14F2288C2C4B00A349E1 /* GridotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D14C6288C2C4200A349E1 /* GridotApp.swift */; };
+		333D14F3288C2C4B00A349E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D14C7288C2C4200A349E1 /* ContentView.swift */; };
+		333D14F4288C2C4B00A349E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D14C7288C2C4200A349E1 /* ContentView.swift */; };
+		333D14F5288C2C4B00A349E1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D14C8288C2C4200A349E1 /* Persistence.swift */; };
+		333D14F6288C2C4B00A349E1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D14C8288C2C4200A349E1 /* Persistence.swift */; };
+		333D14F7288C2C4B00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D14C9288C2C4B00A349E1 /* Assets.xcassets */; };
+		333D14F8288C2C4B00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D14C9288C2C4B00A349E1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		333D14DC288C2C4B00A349E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333D14BF288C2C4200A349E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333D14CD288C2C4B00A349E1;
+			remoteInfo = "Gridot (iOS)";
+		};
+		333D14E8288C2C4B00A349E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333D14BF288C2C4200A349E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333D14D3288C2C4B00A349E1;
+			remoteInfo = "Gridot (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		333D14C5288C2C4200A349E1 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		333D14C6288C2C4200A349E1 /* GridotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridotApp.swift; sourceTree = "<group>"; };
+		333D14C7288C2C4200A349E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		333D14C8288C2C4200A349E1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		333D14C9288C2C4B00A349E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333D14CE288C2C4B00A349E1 /* Gridot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gridot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333D14D4288C2C4B00A349E1 /* Gridot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gridot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333D14D6288C2C4B00A349E1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		333D14DB288C2C4B00A349E1 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		333D14DF288C2C4B00A349E1 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		333D14E1288C2C4B00A349E1 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		333D14E7288C2C4B00A349E1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		333D14EB288C2C4B00A349E1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		333D14ED288C2C4B00A349E1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333D14CB288C2C4B00A349E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D14D1288C2C4B00A349E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D14D8288C2C4B00A349E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D14E4288C2C4B00A349E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333D14BE288C2C4200A349E1 = {
+			isa = PBXGroup;
+			children = (
+				333D14C3288C2C4200A349E1 /* Shared */,
+				333D14D5288C2C4B00A349E1 /* macOS */,
+				333D14DE288C2C4B00A349E1 /* Tests iOS */,
+				333D14EA288C2C4B00A349E1 /* Tests macOS */,
+				333D14CF288C2C4B00A349E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333D14C3288C2C4200A349E1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				333D14C6288C2C4200A349E1 /* GridotApp.swift */,
+				333D14C7288C2C4200A349E1 /* ContentView.swift */,
+				333D14C8288C2C4200A349E1 /* Persistence.swift */,
+				333D14C9288C2C4B00A349E1 /* Assets.xcassets */,
+				333D14C4288C2C4200A349E1 /* Gridot.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		333D14CF288C2C4B00A349E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333D14CE288C2C4B00A349E1 /* Gridot.app */,
+				333D14D4288C2C4B00A349E1 /* Gridot.app */,
+				333D14DB288C2C4B00A349E1 /* Tests iOS.xctest */,
+				333D14E7288C2C4B00A349E1 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333D14D5288C2C4B00A349E1 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				333D14D6288C2C4B00A349E1 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		333D14DE288C2C4B00A349E1 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				333D14DF288C2C4B00A349E1 /* Tests_iOS.swift */,
+				333D14E1288C2C4B00A349E1 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		333D14EA288C2C4B00A349E1 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				333D14EB288C2C4B00A349E1 /* Tests_macOS.swift */,
+				333D14ED288C2C4B00A349E1 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333D14CD288C2C4B00A349E1 /* Gridot (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333D14FB288C2C4B00A349E1 /* Build configuration list for PBXNativeTarget "Gridot (iOS)" */;
+			buildPhases = (
+				333D14CA288C2C4B00A349E1 /* Sources */,
+				333D14CB288C2C4B00A349E1 /* Frameworks */,
+				333D14CC288C2C4B00A349E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gridot (iOS)";
+			productName = "Gridot (iOS)";
+			productReference = 333D14CE288C2C4B00A349E1 /* Gridot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		333D14D3288C2C4B00A349E1 /* Gridot (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333D14FE288C2C4B00A349E1 /* Build configuration list for PBXNativeTarget "Gridot (macOS)" */;
+			buildPhases = (
+				333D14D0288C2C4B00A349E1 /* Sources */,
+				333D14D1288C2C4B00A349E1 /* Frameworks */,
+				333D14D2288C2C4B00A349E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gridot (macOS)";
+			productName = "Gridot (macOS)";
+			productReference = 333D14D4288C2C4B00A349E1 /* Gridot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		333D14DA288C2C4B00A349E1 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333D1501288C2C4B00A349E1 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				333D14D7288C2C4B00A349E1 /* Sources */,
+				333D14D8288C2C4B00A349E1 /* Frameworks */,
+				333D14D9288C2C4B00A349E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333D14DD288C2C4B00A349E1 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 333D14DB288C2C4B00A349E1 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		333D14E6288C2C4B00A349E1 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333D1504288C2C4B00A349E1 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				333D14E3288C2C4B00A349E1 /* Sources */,
+				333D14E4288C2C4B00A349E1 /* Frameworks */,
+				333D14E5288C2C4B00A349E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333D14E9288C2C4B00A349E1 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 333D14E7288C2C4B00A349E1 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		333D14BF288C2C4200A349E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					333D14CD288C2C4B00A349E1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					333D14D3288C2C4B00A349E1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					333D14DA288C2C4B00A349E1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 333D14CD288C2C4B00A349E1;
+					};
+					333D14E6288C2C4B00A349E1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 333D14D3288C2C4B00A349E1;
+					};
+				};
+			};
+			buildConfigurationList = 333D14C2288C2C4200A349E1 /* Build configuration list for PBXProject "Gridot" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 333D14BE288C2C4200A349E1;
+			productRefGroup = 333D14CF288C2C4B00A349E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333D14CD288C2C4B00A349E1 /* Gridot (iOS) */,
+				333D14D3288C2C4B00A349E1 /* Gridot (macOS) */,
+				333D14DA288C2C4B00A349E1 /* Tests iOS */,
+				333D14E6288C2C4B00A349E1 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333D14CC288C2C4B00A349E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333D14F7288C2C4B00A349E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D14D2288C2C4B00A349E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333D14F8288C2C4B00A349E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D14D9288C2C4B00A349E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D14E5288C2C4B00A349E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333D14CA288C2C4B00A349E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333D14F1288C2C4B00A349E1 /* GridotApp.swift in Sources */,
+				333D14F5288C2C4B00A349E1 /* Persistence.swift in Sources */,
+				333D14EF288C2C4B00A349E1 /* Gridot.xcdatamodeld in Sources */,
+				333D14F3288C2C4B00A349E1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D14D0288C2C4B00A349E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333D14F2288C2C4B00A349E1 /* GridotApp.swift in Sources */,
+				333D14F6288C2C4B00A349E1 /* Persistence.swift in Sources */,
+				333D14F0288C2C4B00A349E1 /* Gridot.xcdatamodeld in Sources */,
+				333D14F4288C2C4B00A349E1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D14D7288C2C4B00A349E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333D14E2288C2C4B00A349E1 /* Tests_iOSLaunchTests.swift in Sources */,
+				333D14E0288C2C4B00A349E1 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D14E3288C2C4B00A349E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333D14EE288C2C4B00A349E1 /* Tests_macOSLaunchTests.swift in Sources */,
+				333D14EC288C2C4B00A349E1 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		333D14DD288C2C4B00A349E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333D14CD288C2C4B00A349E1 /* Gridot (iOS) */;
+			targetProxy = 333D14DC288C2C4B00A349E1 /* PBXContainerItemProxy */;
+		};
+		333D14E9288C2C4B00A349E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333D14D3288C2C4B00A349E1 /* Gridot (macOS) */;
+			targetProxy = 333D14E8288C2C4B00A349E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		333D14F9288C2C4B00A349E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		333D14FA288C2C4B00A349E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		333D14FC288C2C4B00A349E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanul.Gridot;
+				PRODUCT_NAME = Gridot;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		333D14FD288C2C4B00A349E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanul.Gridot;
+				PRODUCT_NAME = Gridot;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333D14FF288C2C4B00A349E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanul.Gridot;
+				PRODUCT_NAME = Gridot;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		333D1500288C2C4B00A349E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanul.Gridot;
+				PRODUCT_NAME = Gridot;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		333D1502288C2C4B00A349E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gridot (iOS)";
+			};
+			name = Debug;
+		};
+		333D1503288C2C4B00A349E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gridot (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333D1505288C2C4B00A349E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Gridot (macOS)";
+			};
+			name = Debug;
+		};
+		333D1506288C2C4B00A349E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Gridot (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333D14C2288C2C4200A349E1 /* Build configuration list for PBXProject "Gridot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333D14F9288C2C4B00A349E1 /* Debug */,
+				333D14FA288C2C4B00A349E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333D14FB288C2C4B00A349E1 /* Build configuration list for PBXNativeTarget "Gridot (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333D14FC288C2C4B00A349E1 /* Debug */,
+				333D14FD288C2C4B00A349E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333D14FE288C2C4B00A349E1 /* Build configuration list for PBXNativeTarget "Gridot (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333D14FF288C2C4B00A349E1 /* Debug */,
+				333D1500288C2C4B00A349E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333D1501288C2C4B00A349E1 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333D1502288C2C4B00A349E1 /* Debug */,
+				333D1503288C2C4B00A349E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333D1504288C2C4B00A349E1 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333D1505288C2C4B00A349E1 /* Debug */,
+				333D1506288C2C4B00A349E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		333D14C4288C2C4200A349E1 /* Gridot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				333D14C5288C2C4200A349E1 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 333D14C5288C2C4200A349E1 /* Shared.xcdatamodel */;
+			path = Gridot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 333D14BF288C2C4200A349E1 /* Project object */;
+}
