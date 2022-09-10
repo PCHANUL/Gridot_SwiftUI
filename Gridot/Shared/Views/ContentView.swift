@@ -15,12 +15,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone 13 mini", "iPad mini (6th generation)"], id: \.self) { device in
-            ContentView()
-                .environmentObject(ModelData())
-                .previewDevice(PreviewDevice(rawValue: device))
-                .previewDisplayName(device)
-        }
-       
+        ContentView()
     }
 }

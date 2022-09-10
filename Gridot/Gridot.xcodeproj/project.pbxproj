@@ -17,26 +17,10 @@
 		333D153E288C4D5E00A349E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D1514288C4D5800A349E1 /* ContentView.swift */; };
 		333D153F288C4D5E00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D1515288C4D5E00A349E1 /* Assets.xcassets */; };
 		333D1540288C4D5E00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D1515288C4D5E00A349E1 /* Assets.xcassets */; };
-		33652C5E28A79B560059BAB7 /* GalleryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33652C5D28A79B560059BAB7 /* GalleryRow.swift */; };
-		33652C5F28A79B560059BAB7 /* GalleryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33652C5D28A79B560059BAB7 /* GalleryRow.swift */; };
-		33652C6128A79F620059BAB7 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33652C6028A79F620059BAB7 /* CategoryItem.swift */; };
-		33652C6228A79F620059BAB7 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33652C6028A79F620059BAB7 /* CategoryItem.swift */; };
-		33652C6428A7A46C0059BAB7 /* AssetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33652C6328A7A46C0059BAB7 /* AssetDetail.swift */; };
-		33652C6528A7A46C0059BAB7 /* AssetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33652C6328A7A46C0059BAB7 /* AssetDetail.swift */; };
-		33805C0A289291F800E2FA0E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33805C09289291F800E2FA0E /* CircleImage.swift */; };
-		33805C0B289291F800E2FA0E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33805C09289291F800E2FA0E /* CircleImage.swift */; };
-		33805C0D2892935600E2FA0E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33805C0C2892935600E2FA0E /* MapView.swift */; };
-		33805C0E2892935600E2FA0E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33805C0C2892935600E2FA0E /* MapView.swift */; };
-		33805C102892975700E2FA0E /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 33805C0F2892975700E2FA0E /* landmarkData.json */; };
-		33805C112892975700E2FA0E /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 33805C0F2892975700E2FA0E /* landmarkData.json */; };
-		33805C132892976900E2FA0E /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33805C122892976900E2FA0E /* Asset.swift */; };
-		33805C142892976900E2FA0E /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33805C122892976900E2FA0E /* Asset.swift */; };
-		33805C16289298CA00E2FA0E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33805C15289298CA00E2FA0E /* ModelData.swift */; };
-		33805C17289298CA00E2FA0E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33805C15289298CA00E2FA0E /* ModelData.swift */; };
-		33E9653228A764EC00DF2F3D /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653128A764EC00DF2F3D /* FavoriteButton.swift */; };
-		33E9653328A764EC00DF2F3D /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653128A764EC00DF2F3D /* FavoriteButton.swift */; };
 		33E9653728A7901B00DF2F3D /* GalleyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653628A7901B00DF2F3D /* GalleyHome.swift */; };
 		33E9653828A7901B00DF2F3D /* GalleyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653628A7901B00DF2F3D /* GalleyHome.swift */; };
+		33ECC95628C89F6700B062A6 /* UnitTest_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */; };
+		33ECC95F28C8A11900B062A6 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +38,13 @@
 			remoteGlobalIDString = 333D151F288C4D5E00A349E1;
 			remoteInfo = "Gridot (macOS)";
 		};
+		33ECC95728C89F6700B062A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333D150E288C4D5700A349E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333D1519288C4D5E00A349E1;
+			remoteInfo = "Gridot (iOS)";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -69,16 +60,10 @@
 		333D1533288C4D5E00A349E1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		333D1537288C4D5E00A349E1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		333D1539288C4D5E00A349E1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		33652C5D28A79B560059BAB7 /* GalleryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryRow.swift; sourceTree = "<group>"; };
-		33652C6028A79F620059BAB7 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
-		33652C6328A7A46C0059BAB7 /* AssetDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetDetail.swift; sourceTree = "<group>"; };
-		33805C09289291F800E2FA0E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		33805C0C2892935600E2FA0E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		33805C0F2892975700E2FA0E /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
-		33805C122892976900E2FA0E /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
-		33805C15289298CA00E2FA0E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		33E9653128A764EC00DF2F3D /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		33E9653628A7901B00DF2F3D /* GalleyHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleyHome.swift; sourceTree = "<group>"; };
+		33ECC95328C89F6700B062A6 /* UnitTest iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTest iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTest_iOS.swift; sourceTree = "<group>"; };
+		33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33ECC95028C89F6700B062A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -121,6 +113,7 @@
 				333D1521288C4D5E00A349E1 /* macOS */,
 				333D152A288C4D5E00A349E1 /* Tests iOS */,
 				333D1536288C4D5E00A349E1 /* Tests macOS */,
+				33ECC95428C89F6700B062A6 /* UnitTest iOS */,
 				333D151B288C4D5E00A349E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,6 +136,7 @@
 				333D1520288C4D5E00A349E1 /* Gridot.app */,
 				333D1527288C4D5E00A349E1 /* Tests iOS.xctest */,
 				333D1533288C4D5E00A349E1 /* Tests macOS.xctest */,
+				33ECC95328C89F6700B062A6 /* UnitTest iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,9 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				33E9653628A7901B00DF2F3D /* GalleyHome.swift */,
-				33652C5D28A79B560059BAB7 /* GalleryRow.swift */,
-				33652C6028A79F620059BAB7 /* CategoryItem.swift */,
-				33652C6328A7A46C0059BAB7 /* AssetDetail.swift */,
 			);
 			path = Gallery;
 			sourceTree = "<group>";
@@ -189,7 +180,6 @@
 			children = (
 				333D1514288C4D5800A349E1 /* ContentView.swift */,
 				33652C6628A7AAD50059BAB7 /* Gallery */,
-				33E9653528A765BD00DF2F3D /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,8 +187,6 @@
 		33805C192892997900E2FA0E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				33805C122892976900E2FA0E /* Asset.swift */,
-				33805C15289298CA00E2FA0E /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -206,19 +194,25 @@
 		33805C1A2892998900E2FA0E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				33805C0F2892975700E2FA0E /* landmarkData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		33E9653528A765BD00DF2F3D /* Helpers */ = {
+		33ECC95428C89F6700B062A6 /* UnitTest iOS */ = {
 			isa = PBXGroup;
 			children = (
-				33805C09289291F800E2FA0E /* CircleImage.swift */,
-				33805C0C2892935600E2FA0E /* MapView.swift */,
-				33E9653128A764EC00DF2F3D /* FavoriteButton.swift */,
+				33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */,
+				33ECC96128C8A18500B062A6 /* utils */,
 			);
-			path = Helpers;
+			path = "UnitTest iOS";
+			sourceTree = "<group>";
+		};
+		33ECC96128C8A18500B062A6 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +288,24 @@
 			productReference = 333D1533288C4D5E00A349E1 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		33ECC95228C89F6700B062A6 /* UnitTest iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ECC95928C89F6700B062A6 /* Build configuration list for PBXNativeTarget "UnitTest iOS" */;
+			buildPhases = (
+				33ECC94F28C89F6700B062A6 /* Sources */,
+				33ECC95028C89F6700B062A6 /* Frameworks */,
+				33ECC95128C89F6700B062A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33ECC95828C89F6700B062A6 /* PBXTargetDependency */,
+			);
+			name = "UnitTest iOS";
+			productName = "UnitTest iOS";
+			productReference = 33ECC95328C89F6700B062A6 /* UnitTest iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -318,6 +330,10 @@
 						CreatedOnToolsVersion = 13.3.1;
 						TestTargetID = 333D151F288C4D5E00A349E1;
 					};
+					33ECC95228C89F6700B062A6 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 333D1519288C4D5E00A349E1;
+					};
 				};
 			};
 			buildConfigurationList = 333D1511288C4D5700A349E1 /* Build configuration list for PBXProject "Gridot" */;
@@ -337,6 +353,7 @@
 				333D151F288C4D5E00A349E1 /* Gridot (macOS) */,
 				333D1526288C4D5E00A349E1 /* Tests iOS */,
 				333D1532288C4D5E00A349E1 /* Tests macOS */,
+				33ECC95228C89F6700B062A6 /* UnitTest iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -347,7 +364,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				333D153F288C4D5E00A349E1 /* Assets.xcassets in Resources */,
-				33805C102892975700E2FA0E /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +372,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				333D1540288C4D5E00A349E1 /* Assets.xcassets in Resources */,
-				33805C112892975700E2FA0E /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +389,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33ECC95128C89F6700B062A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -381,17 +403,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33805C0D2892935600E2FA0E /* MapView.swift in Sources */,
 				333D153D288C4D5E00A349E1 /* ContentView.swift in Sources */,
-				33652C5E28A79B560059BAB7 /* GalleryRow.swift in Sources */,
-				33805C0A289291F800E2FA0E /* CircleImage.swift in Sources */,
-				33805C132892976900E2FA0E /* Asset.swift in Sources */,
 				333D153B288C4D5E00A349E1 /* GridotApp.swift in Sources */,
-				33805C16289298CA00E2FA0E /* ModelData.swift in Sources */,
 				33E9653728A7901B00DF2F3D /* GalleyHome.swift in Sources */,
-				33652C6128A79F620059BAB7 /* CategoryItem.swift in Sources */,
-				33E9653228A764EC00DF2F3D /* FavoriteButton.swift in Sources */,
-				33652C6428A7A46C0059BAB7 /* AssetDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,17 +413,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33805C0E2892935600E2FA0E /* MapView.swift in Sources */,
 				333D153E288C4D5E00A349E1 /* ContentView.swift in Sources */,
-				33652C5F28A79B560059BAB7 /* GalleryRow.swift in Sources */,
-				33805C17289298CA00E2FA0E /* ModelData.swift in Sources */,
-				33805C142892976900E2FA0E /* Asset.swift in Sources */,
-				33652C6528A7A46C0059BAB7 /* AssetDetail.swift in Sources */,
 				333D153C288C4D5E00A349E1 /* GridotApp.swift in Sources */,
-				33652C6228A79F620059BAB7 /* CategoryItem.swift in Sources */,
-				33805C0B289291F800E2FA0E /* CircleImage.swift in Sources */,
 				33E9653828A7901B00DF2F3D /* GalleyHome.swift in Sources */,
-				33E9653328A764EC00DF2F3D /* FavoriteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +437,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33ECC94F28C89F6700B062A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECC95628C89F6700B062A6 /* UnitTest_iOS.swift in Sources */,
+				33ECC95F28C8A11900B062A6 /* BaseTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -443,6 +458,11 @@
 			isa = PBXTargetDependency;
 			target = 333D151F288C4D5E00A349E1 /* Gridot (macOS) */;
 			targetProxy = 333D1534288C4D5E00A349E1 /* PBXContainerItemProxy */;
+		};
+		33ECC95828C89F6700B062A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333D1519288C4D5E00A349E1 /* Gridot (iOS) */;
+			targetProxy = 33ECC95728C89F6700B062A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -677,6 +697,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 266AXC4DDD;
@@ -689,7 +710,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Gridot (iOS)";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -697,6 +718,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 266AXC4DDD;
@@ -709,7 +731,6 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Gridot (iOS)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -749,6 +770,47 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "Gridot (macOS)";
+			};
+			name = Release;
+		};
+		33ECC95A28C89F6700B062A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.UnitTest-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gridot.app/Gridot";
+			};
+			name = Debug;
+		};
+		33ECC95B28C89F6700B062A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.UnitTest-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gridot.app/Gridot";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -796,6 +858,15 @@
 			buildConfigurations = (
 				333D154D288C4D5E00A349E1 /* Debug */,
 				333D154E288C4D5E00A349E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33ECC95928C89F6700B062A6 /* Build configuration list for PBXNativeTarget "UnitTest iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ECC95A28C89F6700B062A6 /* Debug */,
+				33ECC95B28C89F6700B062A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

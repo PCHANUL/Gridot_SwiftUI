@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import Gridot
 
 class Tests_iOS: XCTestCase {
 
