@@ -8,8 +8,7 @@
 import XCTest
 @testable import Gridot
 
-class Test_DragRelocatedDelegate: BaseTestCase {
-    
+class TestDragRelocatedDelegate: BaseTestCase {
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -19,10 +18,5 @@ class Test_DragRelocatedDelegate: BaseTestCase {
     }
 
     func test_dropEntered() throws {
-        let a = Even(num: 0)
-
-        when {
-            XCTAssert(a.isEven == true)
-        }
     }
 }

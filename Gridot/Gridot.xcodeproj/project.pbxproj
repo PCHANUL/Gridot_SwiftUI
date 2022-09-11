@@ -18,10 +18,14 @@
 		333D153F288C4D5E00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D1515288C4D5E00A349E1 /* Assets.xcassets */; };
 		333D1540288C4D5E00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D1515288C4D5E00A349E1 /* Assets.xcassets */; };
 		33D79F4B28CCEC3F002CC282 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D79F4A28CCEC3F002CC282 /* BaseTestCase.swift */; };
+		33D79F4E28CE4912002CC282 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 33D79F4D28CE4912002CC282 /* .swiftlint.yml */; };
+		33D79F4F28CE4912002CC282 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 33D79F4D28CE4912002CC282 /* .swiftlint.yml */; };
 		33E9653728A7901B00DF2F3D /* GalleyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653628A7901B00DF2F3D /* GalleyHome.swift */; };
 		33E9653828A7901B00DF2F3D /* GalleyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653628A7901B00DF2F3D /* GalleyHome.swift */; };
 		33ECC95628C89F6700B062A6 /* UnitTest_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */; };
 		33ECC95F28C8A11900B062A6 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */; };
+		75F3B7771C9D228D63ADE0D6 /* Pods_Gridot__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C381612DB5FAE6E3F6F791F2 /* Pods_Gridot__iOS_.framework */; };
+		E1AA5D9C35DE1762F9A2603B /* Pods_Gridot__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593791E278F71721B71698B3 /* Pods_Gridot__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +66,17 @@
 		333D1537288C4D5E00A349E1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		333D1539288C4D5E00A349E1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		33D79F4A28CCEC3F002CC282 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		33D79F4D28CE4912002CC282 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		33E9653628A7901B00DF2F3D /* GalleyHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleyHome.swift; sourceTree = "<group>"; };
 		33ECC95328C89F6700B062A6 /* UnitTest iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTest iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTest_iOS.swift; sourceTree = "<group>"; };
 		33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		3A28090E502E41D21491CEBE /* Pods-Gridot (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridot (macOS).release.xcconfig"; path = "Target Support Files/Pods-Gridot (macOS)/Pods-Gridot (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		593791E278F71721B71698B3 /* Pods_Gridot__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gridot__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7EF48F92AB51FFCB2B0DE3 /* Pods-Gridot (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridot (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Gridot (iOS)/Pods-Gridot (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		990AE3D0C79A307F2A671EE8 /* Pods-Gridot (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridot (iOS).release.xcconfig"; path = "Target Support Files/Pods-Gridot (iOS)/Pods-Gridot (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		C381612DB5FAE6E3F6F791F2 /* Pods_Gridot__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gridot__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64BDFF40EDCD30304CCDB73 /* Pods-Gridot (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridot (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Gridot (macOS)/Pods-Gridot (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F3B7771C9D228D63ADE0D6 /* Pods_Gridot__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AA5D9C35DE1762F9A2603B /* Pods_Gridot__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,9 +120,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28F78A1B9FFAE619F8E11373 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B7EF48F92AB51FFCB2B0DE3 /* Pods-Gridot (iOS).debug.xcconfig */,
+				990AE3D0C79A307F2A671EE8 /* Pods-Gridot (iOS).release.xcconfig */,
+				D64BDFF40EDCD30304CCDB73 /* Pods-Gridot (macOS).debug.xcconfig */,
+				3A28090E502E41D21491CEBE /* Pods-Gridot (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		333D150D288C4D5700A349E1 = {
 			isa = PBXGroup;
 			children = (
+				33D79F4D28CE4912002CC282 /* .swiftlint.yml */,
 				333D1512288C4D5800A349E1 /* Shared */,
 				333D1515288C4D5E00A349E1 /* Assets.xcassets */,
 				333D1521288C4D5E00A349E1 /* macOS */,
@@ -117,6 +142,8 @@
 				333D1536288C4D5E00A349E1 /* Tests macOS */,
 				33ECC95428C89F6700B062A6 /* UnitTest iOS */,
 				333D151B288C4D5E00A349E1 /* Products */,
+				28F78A1B9FFAE619F8E11373 /* Pods */,
+				6C0041B708BD7BA7F04433CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +245,15 @@
 			path = utils;
 			sourceTree = "<group>";
 		};
+		6C0041B708BD7BA7F04433CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C381612DB5FAE6E3F6F791F2 /* Pods_Gridot__iOS_.framework */,
+				593791E278F71721B71698B3 /* Pods_Gridot__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 333D1543288C4D5E00A349E1 /* Build configuration list for PBXNativeTarget "Gridot (iOS)" */;
 			buildPhases = (
+				02967C2F4085BA375454E804 /* [CP] Check Pods Manifest.lock */,
 				333D1516288C4D5E00A349E1 /* Sources */,
 				333D1517288C4D5E00A349E1 /* Frameworks */,
 				333D1518288C4D5E00A349E1 /* Resources */,
+				33D79F4C28CE4481002CC282 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -242,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 333D1546288C4D5E00A349E1 /* Build configuration list for PBXNativeTarget "Gridot (macOS)" */;
 			buildPhases = (
+				DAA9E14719BAF6D2DC49925D /* [CP] Check Pods Manifest.lock */,
 				333D151C288C4D5E00A349E1 /* Sources */,
 				333D151D288C4D5E00A349E1 /* Frameworks */,
 				333D151E288C4D5E00A349E1 /* Resources */,
@@ -366,6 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D79F4E28CE4912002CC282 /* .swiftlint.yml in Resources */,
 				333D153F288C4D5E00A349E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +414,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D79F4F28CE4912002CC282 /* .swiftlint.yml in Resources */,
 				333D1540288C4D5E00A349E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +441,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02967C2F4085BA375454E804 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gridot (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33D79F4C28CE4481002CC282 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		DAA9E14719BAF6D2DC49925D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gridot (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		333D1516288C4D5E00A349E1 /* Sources */ = {
@@ -582,6 +687,7 @@
 		};
 		333D1544288C4D5E00A349E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EF48F92AB51FFCB2B0DE3 /* Pods-Gridot (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -612,6 +718,7 @@
 		};
 		333D1545288C4D5E00A349E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990AE3D0C79A307F2A671EE8 /* Pods-Gridot (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -643,6 +750,7 @@
 		};
 		333D1547288C4D5E00A349E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64BDFF40EDCD30304CCDB73 /* Pods-Gridot (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -671,6 +779,7 @@
 		};
 		333D1548288C4D5E00A349E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A28090E502E41D21491CEBE /* Pods-Gridot (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

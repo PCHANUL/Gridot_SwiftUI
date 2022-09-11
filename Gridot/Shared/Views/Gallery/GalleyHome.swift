@@ -32,41 +32,38 @@ struct GalleryHome: View {
     }
 }
 
-struct RelocatableView<Content, C> : View where Content : View, C : MutableCollection, C : RandomAccessCollection, C.Index : Hashable, C.Element : Hashable {
-    var content: (_ data: C.Element) -> Content
-    @Binding var data: C
-    @State var tar: Int = 0
-    
-    public init(data: Binding<C>, @ViewBuilder content: @escaping (_ data: C.Element) -> Content) {
-        self.content = content
-        self._data = data
-    }
-    
+struct RelocatableView<Content, C>: View
+    where Content: View, C: MutableCollection, C: RandomAccessCollection, C.Index: Hashable, C.Element: Hashable {
+    @Binding        var data: C
+    @ViewBuilder    var content: (_ data: C.Element) -> Content
+    @State          var tar: Int = 0
     var body: some View {
         ForEach(data, id: \.self) { value in
             content(value)
                 .onDrag {
-                    tar = data.firstIndex(of: value) as! Int
+                    tar = data.firstIndex(of: value) as? Int ?? 0
                     return NSItemProvider(object: String(tar) as NSString)
                 }
                 .onDrop(
                     of: [.text],
-                    delegate: DragRelocatedDelegate(data: $data, tar: $tar, index: data.firstIndex(of: value) as! Int)
+                    delegate: DragRelocatedDelegate(
+                        data: $data, tar: $tar, index: data.firstIndex(of: value) as? Int ?? 0)
                 )
         }
     }
 }
 
-struct DragRelocatedDelegate<C>: DropDelegate where C : MutableCollection, C : RandomAccessCollection, C.Index : Hashable {
+struct DragRelocatedDelegate<C>: DropDelegate
+    where C: MutableCollection, C: RandomAccessCollection, C.Index: Hashable {
     @Binding var data: C
     @Binding var tar: Int
     var index: Int
     
     func dropEntered(info: DropInfo) {
-        let from = data.index(data.startIndex, offsetBy: tar)
-        let to = data.index(data.startIndex, offsetBy: index)
+        let fromIdx = data.index(data.startIndex, offsetBy: tar)
+        let toIdx = data.index(data.startIndex, offsetBy: index)
         withAnimation(.default) {
-            data.swapAt(from, to)
+            data.swapAt(fromIdx, toIdx)
             tar = index
         }
     }

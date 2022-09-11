@@ -1,0 +1,18 @@
+
+platform :ios, '9.0'
+
+target 'Gridot (iOS)' do
+  use_frameworks!
+
+  # Pods for Gridot (iOS)
+  
+  pod 'SwiftLint'
+
+end
+
+target 'Gridot (macOS)' do
+  use_frameworks!
+
+  # Pods for Gridot (macOS)
+
+end
