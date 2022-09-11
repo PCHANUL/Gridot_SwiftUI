@@ -17,6 +17,7 @@
 		333D153E288C4D5E00A349E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D1514288C4D5800A349E1 /* ContentView.swift */; };
 		333D153F288C4D5E00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D1515288C4D5E00A349E1 /* Assets.xcassets */; };
 		333D1540288C4D5E00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D1515288C4D5E00A349E1 /* Assets.xcassets */; };
+		33D79F4B28CCEC3F002CC282 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D79F4A28CCEC3F002CC282 /* BaseTestCase.swift */; };
 		33E9653728A7901B00DF2F3D /* GalleyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653628A7901B00DF2F3D /* GalleyHome.swift */; };
 		33E9653828A7901B00DF2F3D /* GalleyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653628A7901B00DF2F3D /* GalleyHome.swift */; };
 		33ECC95628C89F6700B062A6 /* UnitTest_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */; };
@@ -60,6 +61,7 @@
 		333D1533288C4D5E00A349E1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		333D1537288C4D5E00A349E1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		333D1539288C4D5E00A349E1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		33D79F4A28CCEC3F002CC282 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 		33E9653628A7901B00DF2F3D /* GalleyHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleyHome.swift; sourceTree = "<group>"; };
 		33ECC95328C89F6700B062A6 /* UnitTest iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTest iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTest_iOS.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		333D152A288C4D5E00A349E1 /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
+				33D79F4A28CCEC3F002CC282 /* BaseTestCase.swift */,
 				333D152B288C4D5E00A349E1 /* Tests_iOS.swift */,
 				333D152D288C4D5E00A349E1 /* Tests_iOSLaunchTests.swift */,
 			);
@@ -424,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				333D152E288C4D5E00A349E1 /* Tests_iOSLaunchTests.swift in Sources */,
+				33D79F4B28CCEC3F002CC282 /* BaseTestCase.swift in Sources */,
 				333D152C288C4D5E00A349E1 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
