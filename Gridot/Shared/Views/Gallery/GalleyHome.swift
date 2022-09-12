@@ -14,66 +14,17 @@ struct GalleryHome: View {
 
     var body: some View {
         NavigationView {
-            ScrollView {
-                LazyVGrid(columns: columns) {
-                    RelocatableView(data: $arr) { value in
-                        VStack {
-                            Text(String(value))
-                                .font(.headline)
-                                .foregroundColor(.black)
-                        }
-                        .frame(width: 50, height: 50)
-                        .background(.yellow)
-                    }
+            DragDropVGrid(columns: columns, data: $arr, content: { value in
+                VStack {
+                    Text(String(value))
+                        .font(.headline)
+                        .foregroundColor(.black)
                 }
-            }
+                .frame(width: 50, height: 50)
+                .background(.yellow)
+            })
             .navigationTitle("Gallery")
         }
-    }
-}
-
-struct RelocatableView<Content, C>: View
-    where Content: View, C: MutableCollection, C: RandomAccessCollection, C.Index: Hashable, C.Element: Hashable {
-    @Binding        var data: C
-    @ViewBuilder    var content: (_ data: C.Element) -> Content
-    @State          var tar: Int = 0
-    var body: some View {
-        ForEach(data, id: \.self) { value in
-            content(value)
-                .onDrag {
-                    tar = data.firstIndex(of: value) as? Int ?? 0
-                    return NSItemProvider(object: String(tar) as NSString)
-                }
-                .onDrop(
-                    of: [.text],
-                    delegate: DragRelocatedDelegate(
-                        data: $data, tar: $tar, index: data.firstIndex(of: value) as? Int ?? 0)
-                )
-        }
-    }
-}
-
-struct DragRelocatedDelegate<C>: DropDelegate
-    where C: MutableCollection, C: RandomAccessCollection, C.Index: Hashable {
-    @Binding var data: C
-    @Binding var tar: Int
-    var index: Int
-    
-    func dropEntered(info: DropInfo) {
-        let fromIdx = data.index(data.startIndex, offsetBy: tar)
-        let toIdx = data.index(data.startIndex, offsetBy: index)
-        withAnimation(.default) {
-            data.swapAt(fromIdx, toIdx)
-            tar = index
-        }
-    }
-    
-    func dropUpdated(info: DropInfo) -> DropProposal? {
-        return DropProposal(operation: .move)
-    }
-    
-    func performDrop(info: DropInfo) -> Bool {
-        return false
     }
 }
 
