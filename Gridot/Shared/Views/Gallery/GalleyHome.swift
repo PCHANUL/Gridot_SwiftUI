@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GalleryHome: View {
     var columns: [GridItem] = Array(repeating: GridItem(.flexible(minimum: 50)), count: 4)
-    @State var arr = [0, 1, 2, 3, 4, 5, 6]
+    @State var arr: [Int] = [0, 1, 2, 3, 4, 5, 6]
     @State var tar: Int = 0
 
     var body: some View {

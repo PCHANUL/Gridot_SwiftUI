@@ -6,17 +6,28 @@
 //
 
 import XCTest
+import SwiftUI
 @testable import Gridot
 
-class TestDragRelocatedDelegate: BaseTestCase {
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func test_dropEntered() throws {
+class Tests_DragDropVGrid: BaseTestCase {
+    var intArr: [Int] = []
+    var strArr: [String] = []
+    var tar: Int = 0
+    
+    func test_moveIndex_outOfBounds() throws {
+        let arr: [Int] = [0, 1, 2, 3, 4, 5]
+        
+        given {
+            intArr.append(contentsOf: arr)
+            tar = 0
+        }
+        
+        when {
+            moveIndex(data: &intArr, from: 0, to: 8)
+        }
+        
+        then {
+            XCTAssert(intArr == arr)
+        }
     }
 }

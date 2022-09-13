@@ -24,6 +24,8 @@
 		33E9653828A7901B00DF2F3D /* GalleyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653628A7901B00DF2F3D /* GalleyHome.swift */; };
 		33ECC95628C89F6700B062A6 /* UnitTest_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */; };
 		33ECC95F28C8A11900B062A6 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */; };
+		33F3599C28D0619A0042089C /* moveIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3599B28D0619A0042089C /* moveIndex.swift */; };
+		33F3599D28D0619A0042089C /* moveIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3599B28D0619A0042089C /* moveIndex.swift */; };
 		75F3B7771C9D228D63ADE0D6 /* Pods_Gridot__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C381612DB5FAE6E3F6F791F2 /* Pods_Gridot__iOS_.framework */; };
 		E1AA5D9C35DE1762F9A2603B /* Pods_Gridot__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593791E278F71721B71698B3 /* Pods_Gridot__macOS_.framework */; };
 /* End PBXBuildFile section */
@@ -70,6 +72,7 @@
 		33ECC95328C89F6700B062A6 /* UnitTest iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTest iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTest_iOS.swift; sourceTree = "<group>"; };
 		33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		33F3599B28D0619A0042089C /* moveIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveIndex.swift; sourceTree = "<group>"; };
 		3A28090E502E41D21491CEBE /* Pods-Gridot (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridot (macOS).release.xcconfig"; path = "Target Support Files/Pods-Gridot (macOS)/Pods-Gridot (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		593791E278F71721B71698B3 /* Pods_Gridot__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gridot__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7EF48F92AB51FFCB2B0DE3 /* Pods-Gridot (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridot (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Gridot (iOS)/Pods-Gridot (iOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				333D1513288C4D5800A349E1 /* GridotApp.swift */,
+				33F3599728D061720042089C /* utils */,
 				33805C182892996900E2FA0E /* Views */,
 				33805C192892997900E2FA0E /* Model */,
 				33805C1A2892998900E2FA0E /* Resources */,
@@ -239,6 +243,14 @@
 			isa = PBXGroup;
 			children = (
 				33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		33F3599728D061720042089C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				33F3599B28D0619A0042089C /* moveIndex.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -510,6 +522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				333D153D288C4D5E00A349E1 /* ContentView.swift in Sources */,
+				33F3599C28D0619A0042089C /* moveIndex.swift in Sources */,
 				336EF41F28CF7FFC0048CE1B /* DragDropVGrid.swift in Sources */,
 				333D153B288C4D5E00A349E1 /* GridotApp.swift in Sources */,
 				33E9653728A7901B00DF2F3D /* GalleyHome.swift in Sources */,
@@ -521,6 +534,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				333D153E288C4D5E00A349E1 /* ContentView.swift in Sources */,
+				33F3599D28D0619A0042089C /* moveIndex.swift in Sources */,
 				336EF42028CF7FFC0048CE1B /* DragDropVGrid.swift in Sources */,
 				333D153C288C4D5E00A349E1 /* GridotApp.swift in Sources */,
 				33E9653828A7901B00DF2F3D /* GalleyHome.swift in Sources */,
