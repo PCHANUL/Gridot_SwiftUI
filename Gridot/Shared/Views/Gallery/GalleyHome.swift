@@ -8,21 +8,14 @@
 import SwiftUI
 
 struct GalleryHome: View {
-    var columns: [GridItem] = Array(repeating: GridItem(.flexible(minimum: 50)), count: 4)
+    var columns: [GridItem] = Array(repeating: GridItem(.flexible(minimum: 100)), count: 3)
     @State var arr: [Int] = [0, 1, 2, 3, 4, 5, 6]
-    @State var tar: Int = 0
-
+    
     var body: some View {
         NavigationView {
-            DragDropVGrid(columns: columns, data: $arr, content: { value in
-                VStack {
-                    Text(String(value))
-                        .font(.headline)
-                        .foregroundColor(.black)
-                }
-                .frame(width: 50, height: 50)
-                .background(.yellow)
-            })
+            DragDropVGrid(columns: columns, data: $arr) { value in
+                GalleryItem(value: String(value), thumbnail: UIImage(named: "empty")!)
+            }
             .navigationTitle("Gallery")
         }
     }
@@ -30,8 +23,6 @@ struct GalleryHome: View {
 
 struct GalleyHome_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            GalleryHome()
-        }
+        GalleryHome()
     }
 }

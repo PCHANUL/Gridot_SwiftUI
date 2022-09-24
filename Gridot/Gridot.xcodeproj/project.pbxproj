@@ -15,6 +15,8 @@
 		333D153E288C4D5E00A349E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D1514288C4D5800A349E1 /* ContentView.swift */; };
 		333D153F288C4D5E00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D1515288C4D5E00A349E1 /* Assets.xcassets */; };
 		333D1540288C4D5E00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D1515288C4D5E00A349E1 /* Assets.xcassets */; };
+		335CB06A28D747E600FFB566 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335CB06928D747E600FFB566 /* GalleryItem.swift */; };
+		335CB06B28D747E600FFB566 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335CB06928D747E600FFB566 /* GalleryItem.swift */; };
 		336EF41F28CF7FFC0048CE1B /* DragDropVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336EF41E28CF7FFC0048CE1B /* DragDropVGrid.swift */; };
 		336EF42028CF7FFC0048CE1B /* DragDropVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336EF41E28CF7FFC0048CE1B /* DragDropVGrid.swift */; };
 		33D79F4E28CE4912002CC282 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 33D79F4D28CE4912002CC282 /* .swiftlint.yml */; };
@@ -64,6 +66,7 @@
 		333D1533288C4D5E00A349E1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		333D1537288C4D5E00A349E1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		333D1539288C4D5E00A349E1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		335CB06928D747E600FFB566 /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
 		336EF41E28CF7FFC0048CE1B /* DragDropVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DragDropVGrid.swift; path = /Users/chanul/Desktop/Gridot/Gridot/Shared/Views/DragDropVGrid.swift; sourceTree = "<absolute>"; };
 		33D79F4D28CE4912002CC282 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		33D79F5428CF6D87002CC282 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				33E9653628A7901B00DF2F3D /* GalleyHome.swift */,
+				335CB06928D747E600FFB566 /* GalleryItem.swift */,
 			);
 			path = Gallery;
 			sourceTree = "<group>";
@@ -526,6 +530,7 @@
 				336EF41F28CF7FFC0048CE1B /* DragDropVGrid.swift in Sources */,
 				333D153B288C4D5E00A349E1 /* GridotApp.swift in Sources */,
 				33E9653728A7901B00DF2F3D /* GalleyHome.swift in Sources */,
+				335CB06A28D747E600FFB566 /* GalleryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +543,7 @@
 				336EF42028CF7FFC0048CE1B /* DragDropVGrid.swift in Sources */,
 				333D153C288C4D5E00A349E1 /* GridotApp.swift in Sources */,
 				33E9653828A7901B00DF2F3D /* GalleyHome.swift in Sources */,
+				335CB06B28D747E600FFB566 /* GalleryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

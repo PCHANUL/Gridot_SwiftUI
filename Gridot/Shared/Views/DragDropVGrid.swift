@@ -27,9 +27,9 @@ struct DragDropVGrid<Content, C>: View
 
 struct RelocatableView<Content, C>: View
     where Content: View, C: MutableCollection, C: RandomAccessCollection, C.Index: Hashable, C.Element: Hashable {
-    @Binding        var data: C
-    @ViewBuilder    var content: (_ data: C.Element) -> Content
-    @State          var tar: Int = 0
+    @Binding var data: C
+    @ViewBuilder var content: (_ data: C.Element) -> Content
+    @State var tar: Int = 0
     
     var body: some View {
         ForEach(data, id: \.self) { value in
