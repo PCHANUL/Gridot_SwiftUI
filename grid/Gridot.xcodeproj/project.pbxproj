@@ -1,0 +1,995 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333D1538288C4D5E00A349E1 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D1537288C4D5E00A349E1 /* Tests_macOS.swift */; };
+		333D153A288C4D5E00A349E1 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D1539288C4D5E00A349E1 /* Tests_macOSLaunchTests.swift */; };
+		333D153B288C4D5E00A349E1 /* GridotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D1513288C4D5800A349E1 /* GridotApp.swift */; };
+		333D153C288C4D5E00A349E1 /* GridotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D1513288C4D5800A349E1 /* GridotApp.swift */; };
+		333D153D288C4D5E00A349E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D1514288C4D5800A349E1 /* ContentView.swift */; };
+		333D153E288C4D5E00A349E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D1514288C4D5800A349E1 /* ContentView.swift */; };
+		333D153F288C4D5E00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D1515288C4D5E00A349E1 /* Assets.xcassets */; };
+		333D1540288C4D5E00A349E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D1515288C4D5E00A349E1 /* Assets.xcassets */; };
+		33474B432A4DCFF70075561A /* DragDropVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33474B422A4DCFF70075561A /* DragDropVGrid.swift */; };
+		33474B442A4DCFF70075561A /* DragDropVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33474B422A4DCFF70075561A /* DragDropVGrid.swift */; };
+		335CB06A28D747E600FFB566 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335CB06928D747E600FFB566 /* GalleryItem.swift */; };
+		335CB06B28D747E600FFB566 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335CB06928D747E600FFB566 /* GalleryItem.swift */; };
+		33D79F4E28CE4912002CC282 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 33D79F4D28CE4912002CC282 /* .swiftlint.yml */; };
+		33D79F4F28CE4912002CC282 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 33D79F4D28CE4912002CC282 /* .swiftlint.yml */; };
+		33D79F5728CF6D88002CC282 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D79F5628CF6D88002CC282 /* Tests_iOS.swift */; };
+		33E9653728A7901B00DF2F3D /* GalleyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653628A7901B00DF2F3D /* GalleyHome.swift */; };
+		33E9653828A7901B00DF2F3D /* GalleyHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9653628A7901B00DF2F3D /* GalleyHome.swift */; };
+		33ECC95628C89F6700B062A6 /* UnitTest_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */; };
+		33ECC95F28C8A11900B062A6 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */; };
+		33F3599C28D0619A0042089C /* moveIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3599B28D0619A0042089C /* moveIndex.swift */; };
+		33F3599D28D0619A0042089C /* moveIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3599B28D0619A0042089C /* moveIndex.swift */; };
+		75F3B7771C9D228D63ADE0D6 /* Pods_Gridot__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C381612DB5FAE6E3F6F791F2 /* Pods_Gridot__iOS_.framework */; };
+		E1AA5D9C35DE1762F9A2603B /* Pods_Gridot__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593791E278F71721B71698B3 /* Pods_Gridot__macOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		333D1534288C4D5E00A349E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333D150E288C4D5700A349E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333D151F288C4D5E00A349E1;
+			remoteInfo = "Gridot (macOS)";
+		};
+		33D79F5A28CF6D88002CC282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333D150E288C4D5700A349E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333D1519288C4D5E00A349E1;
+			remoteInfo = "Gridot (iOS)";
+		};
+		33ECC95728C89F6700B062A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 333D150E288C4D5700A349E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333D1519288C4D5E00A349E1;
+			remoteInfo = "Gridot (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		333D1513288C4D5800A349E1 /* GridotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridotApp.swift; sourceTree = "<group>"; };
+		333D1514288C4D5800A349E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		333D1515288C4D5E00A349E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333D151A288C4D5E00A349E1 /* Gridot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gridot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333D1520288C4D5E00A349E1 /* Gridot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gridot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333D1522288C4D5E00A349E1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		333D1533288C4D5E00A349E1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		333D1537288C4D5E00A349E1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		333D1539288C4D5E00A349E1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		33474B422A4DCFF70075561A /* DragDropVGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropVGrid.swift; sourceTree = "<group>"; };
+		335CB06928D747E600FFB566 /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		33D79F4D28CE4912002CC282 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		33D79F5428CF6D87002CC282 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D79F5628CF6D88002CC282 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		33E9653628A7901B00DF2F3D /* GalleyHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleyHome.swift; sourceTree = "<group>"; };
+		33ECC95328C89F6700B062A6 /* UnitTest iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTest iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTest_iOS.swift; sourceTree = "<group>"; };
+		33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		33F3599B28D0619A0042089C /* moveIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveIndex.swift; sourceTree = "<group>"; };
+		3A28090E502E41D21491CEBE /* Pods-Gridot (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridot (macOS).release.xcconfig"; path = "Target Support Files/Pods-Gridot (macOS)/Pods-Gridot (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		593791E278F71721B71698B3 /* Pods_Gridot__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gridot__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7EF48F92AB51FFCB2B0DE3 /* Pods-Gridot (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridot (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Gridot (iOS)/Pods-Gridot (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		990AE3D0C79A307F2A671EE8 /* Pods-Gridot (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridot (iOS).release.xcconfig"; path = "Target Support Files/Pods-Gridot (iOS)/Pods-Gridot (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		C381612DB5FAE6E3F6F791F2 /* Pods_Gridot__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gridot__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64BDFF40EDCD30304CCDB73 /* Pods-Gridot (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gridot (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Gridot (macOS)/Pods-Gridot (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333D1517288C4D5E00A349E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F3B7771C9D228D63ADE0D6 /* Pods_Gridot__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D151D288C4D5E00A349E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AA5D9C35DE1762F9A2603B /* Pods_Gridot__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D1530288C4D5E00A349E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D79F5128CF6D87002CC282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECC95028C89F6700B062A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28F78A1B9FFAE619F8E11373 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B7EF48F92AB51FFCB2B0DE3 /* Pods-Gridot (iOS).debug.xcconfig */,
+				990AE3D0C79A307F2A671EE8 /* Pods-Gridot (iOS).release.xcconfig */,
+				D64BDFF40EDCD30304CCDB73 /* Pods-Gridot (macOS).debug.xcconfig */,
+				3A28090E502E41D21491CEBE /* Pods-Gridot (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		333D150D288C4D5700A349E1 = {
+			isa = PBXGroup;
+			children = (
+				33D79F4D28CE4912002CC282 /* .swiftlint.yml */,
+				333D1512288C4D5800A349E1 /* Shared */,
+				333D1515288C4D5E00A349E1 /* Assets.xcassets */,
+				333D1521288C4D5E00A349E1 /* macOS */,
+				333D1536288C4D5E00A349E1 /* Tests macOS */,
+				33ECC95428C89F6700B062A6 /* UnitTest iOS */,
+				33D79F5528CF6D87002CC282 /* Tests iOS */,
+				333D151B288C4D5E00A349E1 /* Products */,
+				28F78A1B9FFAE619F8E11373 /* Pods */,
+				6C0041B708BD7BA7F04433CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		333D1512288C4D5800A349E1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				333D1513288C4D5800A349E1 /* GridotApp.swift */,
+				33F3599728D061720042089C /* utils */,
+				33805C182892996900E2FA0E /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		333D151B288C4D5E00A349E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333D151A288C4D5E00A349E1 /* Gridot.app */,
+				333D1520288C4D5E00A349E1 /* Gridot.app */,
+				333D1533288C4D5E00A349E1 /* Tests macOS.xctest */,
+				33ECC95328C89F6700B062A6 /* UnitTest iOS.xctest */,
+				33D79F5428CF6D87002CC282 /* Tests iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333D1521288C4D5E00A349E1 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				333D1522288C4D5E00A349E1 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		333D1536288C4D5E00A349E1 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				333D1537288C4D5E00A349E1 /* Tests_macOS.swift */,
+				333D1539288C4D5E00A349E1 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		33652C6628A7AAD50059BAB7 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				33E9653628A7901B00DF2F3D /* GalleyHome.swift */,
+				335CB06928D747E600FFB566 /* GalleryItem.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		33805C182892996900E2FA0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				333D1514288C4D5800A349E1 /* ContentView.swift */,
+				33474B422A4DCFF70075561A /* DragDropVGrid.swift */,
+				33652C6628A7AAD50059BAB7 /* Gallery */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33D79F5528CF6D87002CC282 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33D79F5628CF6D88002CC282 /* Tests_iOS.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		33ECC95428C89F6700B062A6 /* UnitTest iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33ECC95528C89F6700B062A6 /* UnitTest_iOS.swift */,
+				33ECC96128C8A18500B062A6 /* utils */,
+			);
+			path = "UnitTest iOS";
+			sourceTree = "<group>";
+		};
+		33ECC96128C8A18500B062A6 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				33ECC95E28C8A11900B062A6 /* BaseTestCase.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		33F3599728D061720042089C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				33F3599B28D0619A0042089C /* moveIndex.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		6C0041B708BD7BA7F04433CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C381612DB5FAE6E3F6F791F2 /* Pods_Gridot__iOS_.framework */,
+				593791E278F71721B71698B3 /* Pods_Gridot__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333D1519288C4D5E00A349E1 /* Gridot (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333D1543288C4D5E00A349E1 /* Build configuration list for PBXNativeTarget "Gridot (iOS)" */;
+			buildPhases = (
+				02967C2F4085BA375454E804 /* [CP] Check Pods Manifest.lock */,
+				333D1516288C4D5E00A349E1 /* Sources */,
+				333D1517288C4D5E00A349E1 /* Frameworks */,
+				333D1518288C4D5E00A349E1 /* Resources */,
+				33D79F4C28CE4481002CC282 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gridot (iOS)";
+			productName = "Gridot (iOS)";
+			productReference = 333D151A288C4D5E00A349E1 /* Gridot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		333D151F288C4D5E00A349E1 /* Gridot (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333D1546288C4D5E00A349E1 /* Build configuration list for PBXNativeTarget "Gridot (macOS)" */;
+			buildPhases = (
+				DAA9E14719BAF6D2DC49925D /* [CP] Check Pods Manifest.lock */,
+				333D151C288C4D5E00A349E1 /* Sources */,
+				333D151D288C4D5E00A349E1 /* Frameworks */,
+				333D151E288C4D5E00A349E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gridot (macOS)";
+			productName = "Gridot (macOS)";
+			productReference = 333D1520288C4D5E00A349E1 /* Gridot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		333D1532288C4D5E00A349E1 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333D154C288C4D5E00A349E1 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				333D152F288C4D5E00A349E1 /* Sources */,
+				333D1530288C4D5E00A349E1 /* Frameworks */,
+				333D1531288C4D5E00A349E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333D1535288C4D5E00A349E1 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 333D1533288C4D5E00A349E1 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		33D79F5328CF6D87002CC282 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D79F5C28CF6D88002CC282 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				33D79F5028CF6D87002CC282 /* Sources */,
+				33D79F5128CF6D87002CC282 /* Frameworks */,
+				33D79F5228CF6D87002CC282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D79F5B28CF6D88002CC282 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 33D79F5428CF6D87002CC282 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		33ECC95228C89F6700B062A6 /* UnitTest iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ECC95928C89F6700B062A6 /* Build configuration list for PBXNativeTarget "UnitTest iOS" */;
+			buildPhases = (
+				33ECC94F28C89F6700B062A6 /* Sources */,
+				33ECC95028C89F6700B062A6 /* Frameworks */,
+				33ECC95128C89F6700B062A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33ECC95828C89F6700B062A6 /* PBXTargetDependency */,
+			);
+			name = "UnitTest iOS";
+			productName = "UnitTest iOS";
+			productReference = 33ECC95328C89F6700B062A6 /* UnitTest iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		333D150E288C4D5700A349E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					333D1519288C4D5E00A349E1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					333D151F288C4D5E00A349E1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					333D1532288C4D5E00A349E1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 333D151F288C4D5E00A349E1;
+					};
+					33D79F5328CF6D87002CC282 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 333D1519288C4D5E00A349E1;
+					};
+					33ECC95228C89F6700B062A6 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 333D1519288C4D5E00A349E1;
+					};
+				};
+			};
+			buildConfigurationList = 333D1511288C4D5700A349E1 /* Build configuration list for PBXProject "Gridot" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 333D150D288C4D5700A349E1;
+			productRefGroup = 333D151B288C4D5E00A349E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333D1519288C4D5E00A349E1 /* Gridot (iOS) */,
+				333D151F288C4D5E00A349E1 /* Gridot (macOS) */,
+				333D1532288C4D5E00A349E1 /* Tests macOS */,
+				33D79F5328CF6D87002CC282 /* Tests iOS */,
+				33ECC95228C89F6700B062A6 /* UnitTest iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333D1518288C4D5E00A349E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D79F4E28CE4912002CC282 /* .swiftlint.yml in Resources */,
+				333D153F288C4D5E00A349E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D151E288C4D5E00A349E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D79F4F28CE4912002CC282 /* .swiftlint.yml in Resources */,
+				333D1540288C4D5E00A349E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D1531288C4D5E00A349E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D79F5228CF6D87002CC282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECC95128C89F6700B062A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02967C2F4085BA375454E804 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gridot (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33D79F4C28CE4481002CC282 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		DAA9E14719BAF6D2DC49925D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gridot (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333D1516288C4D5E00A349E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333D153D288C4D5E00A349E1 /* ContentView.swift in Sources */,
+				33F3599C28D0619A0042089C /* moveIndex.swift in Sources */,
+				333D153B288C4D5E00A349E1 /* GridotApp.swift in Sources */,
+				33E9653728A7901B00DF2F3D /* GalleyHome.swift in Sources */,
+				335CB06A28D747E600FFB566 /* GalleryItem.swift in Sources */,
+				33474B432A4DCFF70075561A /* DragDropVGrid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D151C288C4D5E00A349E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333D153E288C4D5E00A349E1 /* ContentView.swift in Sources */,
+				33F3599D28D0619A0042089C /* moveIndex.swift in Sources */,
+				333D153C288C4D5E00A349E1 /* GridotApp.swift in Sources */,
+				33E9653828A7901B00DF2F3D /* GalleyHome.swift in Sources */,
+				335CB06B28D747E600FFB566 /* GalleryItem.swift in Sources */,
+				33474B442A4DCFF70075561A /* DragDropVGrid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333D152F288C4D5E00A349E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333D153A288C4D5E00A349E1 /* Tests_macOSLaunchTests.swift in Sources */,
+				333D1538288C4D5E00A349E1 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D79F5028CF6D87002CC282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D79F5728CF6D88002CC282 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECC94F28C89F6700B062A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECC95628C89F6700B062A6 /* UnitTest_iOS.swift in Sources */,
+				33ECC95F28C8A11900B062A6 /* BaseTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		333D1535288C4D5E00A349E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333D151F288C4D5E00A349E1 /* Gridot (macOS) */;
+			targetProxy = 333D1534288C4D5E00A349E1 /* PBXContainerItemProxy */;
+		};
+		33D79F5B28CF6D88002CC282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333D1519288C4D5E00A349E1 /* Gridot (iOS) */;
+			targetProxy = 33D79F5A28CF6D88002CC282 /* PBXContainerItemProxy */;
+		};
+		33ECC95828C89F6700B062A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333D1519288C4D5E00A349E1 /* Gridot (iOS) */;
+			targetProxy = 33ECC95728C89F6700B062A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		333D1541288C4D5E00A349E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		333D1542288C4D5E00A349E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		333D1544288C4D5E00A349E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EF48F92AB51FFCB2B0DE3 /* Pods-Gridot (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanul.Gridot;
+				PRODUCT_NAME = Gridot;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		333D1545288C4D5E00A349E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990AE3D0C79A307F2A671EE8 /* Pods-Gridot (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanul.Gridot;
+				PRODUCT_NAME = Gridot;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333D1547288C4D5E00A349E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64BDFF40EDCD30304CCDB73 /* Pods-Gridot (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanul.Gridot;
+				PRODUCT_NAME = Gridot;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		333D1548288C4D5E00A349E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A28090E502E41D21491CEBE /* Pods-Gridot (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanul.Gridot;
+				PRODUCT_NAME = Gridot;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		333D154D288C4D5E00A349E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Gridot (macOS)";
+			};
+			name = Debug;
+		};
+		333D154E288C4D5E00A349E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Gridot (macOS)";
+			};
+			name = Release;
+		};
+		33D79F5D28CF6D88002CC282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gridot (iOS)";
+			};
+			name = Debug;
+		};
+		33D79F5E28CF6D88002CC282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gridot (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33ECC95A28C89F6700B062A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.UnitTest-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gridot.app/Gridot";
+			};
+			name = Debug;
+		};
+		33ECC95B28C89F6700B062A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266AXC4DDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chanul.UnitTest-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gridot.app/Gridot";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333D1511288C4D5700A349E1 /* Build configuration list for PBXProject "Gridot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333D1541288C4D5E00A349E1 /* Debug */,
+				333D1542288C4D5E00A349E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333D1543288C4D5E00A349E1 /* Build configuration list for PBXNativeTarget "Gridot (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333D1544288C4D5E00A349E1 /* Debug */,
+				333D1545288C4D5E00A349E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333D1546288C4D5E00A349E1 /* Build configuration list for PBXNativeTarget "Gridot (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333D1547288C4D5E00A349E1 /* Debug */,
+				333D1548288C4D5E00A349E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333D154C288C4D5E00A349E1 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333D154D288C4D5E00A349E1 /* Debug */,
+				333D154E288C4D5E00A349E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D79F5C28CF6D88002CC282 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D79F5D28CF6D88002CC282 /* Debug */,
+				33D79F5E28CF6D88002CC282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33ECC95928C89F6700B062A6 /* Build configuration list for PBXNativeTarget "UnitTest iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ECC95A28C89F6700B062A6 /* Debug */,
+				33ECC95B28C89F6700B062A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 333D150E288C4D5700A349E1 /* Project object */;
+}

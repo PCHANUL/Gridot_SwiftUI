@@ -1,18 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
 
-platform :ios, '9.0'
-
-target 'Gridot (iOS)' do
+target 'gridot' do
+  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Gridot (iOS)
-  
-  pod 'SwiftLint'
+  # Pods for gridot
 
-end
+  target 'gridotTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 
-target 'Gridot (macOS)' do
-  use_frameworks!
-
-  # Pods for Gridot (macOS)
+  target 'gridotUITests' do
+    # Pods for testing
+  end
 
 end
